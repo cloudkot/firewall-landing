@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FirewallGuard – Защита на уровне WFP</title>
-    <!-- Google Fonts + Font Awesome -->
+    <title>FirewallGuard</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
@@ -26,8 +25,6 @@
             margin: 0 auto;
             padding: 0 24px;
         }
-
-        /* Header */
         .header {
             padding: 24px 0;
             border-bottom: 1px solid rgba(255,255,255,0.05);
@@ -59,7 +56,6 @@
             color: white;
         }
 
-        /* Hero */
         .hero {
             display: flex;
             flex-wrap: wrap;
@@ -178,7 +174,6 @@
             color: #9aa4bf;
         }
 
-        /* Download (упрощённый блок) */
         .download-section {
             background: #0d1117;
             padding: 60px 0;
@@ -225,7 +220,6 @@
 <body>
 
 <div class="container">
-    <!-- Header -->
     <div class="header">
         <div class="nav">
             <div class="logo">FirewallGuard</div>
@@ -237,25 +231,22 @@
         </div>
     </div>
 
-    <!-- Hero -->
     <div class="hero">
         <div class="hero-text">
             <div class="badge"><i class="fas fa-shield-alt"></i> Полный контроль над трафиком</div>
             <h1>Межсетевой экран на базе <br>Windows Filtering Platform</h1>
-            <p>Собственный фаервол с графиком скорости, мониторингом подключений, IDS и режимом изоляции. Разработан на C#/WPF.</p>
+            <p>Собственный фаервол с графиком скорости, мониторингом подключений, IDS и режимом изоляции. Разработан с использованием C#/WPF.</p>
             <div class="btn-group">
                 <a href="#download" class="btn btn-primary"><i class="fas fa-download"></i> Скачать последнюю версию</a>
                 <a href="https://github.com/cloudkot/firewall-landing" class="btn btn-outline"><i class="fab fa-github"></i> Исходный код</a>
             </div>
         </div>
         <div class="hero-image">
-            <!-- замените на реальный скриншот приложения -->
             <img src="img/screenshot.jpg" alt="Screenshot">
             <p style="margin-top: 12px; font-size: 0.8rem;">Интерфейс: правила, график скорости, логи</p>
         </div>
     </div>
 
-    <!-- Features -->
     <div id="features" class="features">
         <h2>Ключевые возможности</h2>
         <p style="color:#9aa4bf; max-width: 640px; margin: 0 auto;">Управление фильтрацией трафика на уровне ядра Windows через WFP.</p>
@@ -283,7 +274,6 @@
         </div>
     </div>
 
-    <!-- Download section (упрощённый, без выбора версий) -->
     <div id="download" class="download-section">
         <div class="download-card">
             <h3><i class="fas fa-download"></i> Скачать FirewallGuard</h3>
@@ -293,7 +283,6 @@
         </div>
     </div>
 
-    <!-- Footer -->
     <div class="footer">
         <p style="margin-top: 8px;">
             <a href="#" style="color:#6a7892;">Политика конфиденциальности</a> • 
